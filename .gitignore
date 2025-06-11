@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+
+# Ignore .env inside src
+src/.env
+
+# Ignore __pycache__ in any folder (including inside src/)
+**/__pycache__/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.sqlite3
